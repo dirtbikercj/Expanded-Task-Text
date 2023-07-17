@@ -19,8 +19,6 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     private tasks: Record<string, IQuest>;
     private locale: Record<string, Record<string, string>>;
 
-    private newLine = "\n";
-
     public preAkiLoad(container: DependencyContainer): void
     {
         this.logger = container.resolve<ILogger>("WinstonLogger");
