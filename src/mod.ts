@@ -6,7 +6,6 @@ import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
 import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
-import { text } from "stream/consumers";
 import { IQuest } from "@spt-aki/models/eft/common/tables/IQuest";
 
 class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
