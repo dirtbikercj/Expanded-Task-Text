@@ -1,1249 +1,2185 @@
 {
     "5ae327c886f7745c7b3f2f3f": {
-        "QuestName": "Gunsmith Part 10"
+        "QuestName": "Gunsmith Part 10",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae448a386f7744d3730fff0": {
-        "QuestName": "Only business"
+        "QuestName": "Only business",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae448bf86f7744d733e55ee": {
-        "QuestName": "Make ULTRA Great Again"
+        "QuestName": "Make ULTRA Great Again",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4493486f7744efa289417": {
-        "QuestName": "Database Part 1"
+        "QuestName": "Database Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639872fc93ae507d5858c3a6": {
-        "QuestName": "Gunsmith Part 11"
+        "QuestName": "Gunsmith Part 11",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae448e586f7744dcf0c2a67": {
-        "QuestName": "Big sale"
+        "QuestName": "Big sale",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae3277186f7745973054106": {
-        "QuestName": "Gunsmith Part 8"
+        "QuestName": "Gunsmith Part 8",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac3477486f7741d651d6885": {
-        "QuestName": "Scout"
+        "QuestName": "Scout",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4490786f7744ca822adcc": {
-        "QuestName": "Dressed to kill"
+        "QuestName": "Dressed to kill",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae3270f86f77445ba41d4dd": {
-        "QuestName": "Gunsmith Part 6"
+        "QuestName": "Gunsmith Part 6",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac244eb86f7741356335af1": {
-        "QuestName": "Gunsmith Part 7"
+        "QuestName": "Gunsmith Part 7",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b47799d86f7746c5d6a5fd8": {
-        "QuestName": "Gunsmith Part 12"
+        "QuestName": "Gunsmith Part 12",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4493d86f7744b8e15aa8f": {
-        "QuestName": "Database Part 2"
+        "QuestName": "Database Part 2",
+        "IsKeyRequired": true,
+        "RequiredKey": "OLI logistics department office key",
+        "OptionalKey": ""
     },
 
     "5ac345dc86f774288030817f": {
-        "QuestName": "Farming Part 1"
+        "QuestName": "Farming Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac3460c86f7742880308185": {
-        "QuestName": "Farming Part 2"
+        "QuestName": "Farming Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4495086f77443c122bc40": {
-        "QuestName": "Sew it good Part 1"
+        "QuestName": "Sew it good Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac3462b86f7741d6118b983": {
-        "QuestName": "Farming Part 3"
+        "QuestName": "Farming Part 3",
+        "IsKeyRequired": true,
+        "RequiredKey": "Tarcone Director's office key",
+        "OptionalKey": ""
     },
 
     "5ae4495c86f7744e87761355": {
-        "QuestName": "Sew it good Part 2"
+        "QuestName": "Sew it good Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac3464c86f7741d651d6877": {
-        "QuestName": "Farming Part 4"
+        "QuestName": "Farming Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4496986f774459e77beb6": {
-        "QuestName": "Sew it good Part 3"
+        "QuestName": "Sew it good Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4497b86f7744cf402ed00": {
-        "QuestName": "Sew it good Part 4"
+        "QuestName": "Sew it good Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac3467986f7741d6224abc2": {
-        "QuestName": "Signal Part 1"
+        "QuestName": "Signal Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4498786f7744bde357695": {
-        "QuestName": "The key to success"
+        "QuestName": "The key to success",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac346a886f7744e1b083d67": {
-        "QuestName": "Signal Part 2"
+        "QuestName": "Signal Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae4499a86f77449783815db": {
-        "QuestName": "Charisma brings success"
+        "QuestName": "Charisma brings success",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac346cf86f7741d63233a02": {
-        "QuestName": "Signal Part 3"
+        "QuestName": "Signal Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae449a586f7744bde357696": {
-        "QuestName": "No Fuss Needed"
+        "QuestName": "No Fuss Needed",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac346e886f7741d6118b99b": {
-        "QuestName": "Signal Part 4"
+        "QuestName": "Signal Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae449b386f77446d8741719": {
-        "QuestName": "Gratitude"
+        "QuestName": "Gratitude",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac3475486f7741d6224abd3": {
-        "QuestName": "Bad habit"
+        "QuestName": "Bad habit",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae449c386f7744bde357697": {
-        "QuestName": "Sales Night"
+        "QuestName": "Sales Night",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63ab180c87413d64ae0ac20a": {
-        "QuestName": "Dangerous Road"
+        "QuestName": "Dangerous Road",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae449d986f774453a54a7e1": {
-        "QuestName": "Supervisor"
+        "QuestName": "Supervisor",
+        "IsKeyRequired": true,
+        "RequiredKey": "Goshan cash register key",
+        "OptionalKey": ""
     },
 
     "5ac3479086f7742880308199": {
-        "QuestName": "Insider"
+        "QuestName": "Insider",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b47876e86f7744d1c353205": {
-        "QuestName": "The Blood of War Part 2"
+        "QuestName": "The Blood of War Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac244c486f77413e12cf945": {
-        "QuestName": "Gunsmith Part 13"
+        "QuestName": "Gunsmith Part 13",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b47891f86f7744d1b23c571": {
-        "QuestName": "Living high is not a crime"
+        "QuestName": "Living high is not a crime",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639872fe8871e1272b10ccf6": {
-        "QuestName": "Gunsmith Part 14"
+        "QuestName": "Gunsmith Part 14",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b478b1886f7744d1b23c57d": {
-        "QuestName": "Hot delivery"
+        "QuestName": "Hot delivery",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae3280386f7742a41359364": {
-        "QuestName": "Gunsmith Part 15"
+        "QuestName": "Gunsmith Part 15",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b478d0f86f7744d190d91b5": {
-        "QuestName": "Minibus"
+        "QuestName": "Minibus",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac23c6186f7741247042bad": {
-        "QuestName": "Gunsmith Part 1"
+        "QuestName": "Gunsmith Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac2426c86f774138762edfe": {
-        "QuestName": "Gunsmith Part 2"
+        "QuestName": "Gunsmith Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac2428686f77412450b42bf": {
-        "QuestName": "Gunsmith Part 3"
+        "QuestName": "Gunsmith Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae448f286f77448d73c0131": {
-        "QuestName": "The Blood of War Part 1"
+        "QuestName": "The Blood of War Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639872f9decada40426d3447": {
-        "QuestName": "Gunsmith Part 4"
+        "QuestName": "Gunsmith Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ae3267986f7742a413592fe": {
-        "QuestName": "Gunsmith Part 5"
+        "QuestName": "Gunsmith Part 5",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639872fa9b4fb827b200d8e5": {
-        "QuestName": "Gunsmith Part 9"
+        "QuestName": "Gunsmith Part 9",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71dc0a94be721b065bbfc": {
-        "QuestName": "Long Line"
+        "QuestName": "Long Line",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71dc67fcf9c556f325056": {
-        "QuestName": "Booze"
+        "QuestName": "Booze",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c10f94386f774227172c572": {
-        "QuestName": "The Blood of War Part 3"
+        "QuestName": "The Blood of War Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c1141f386f77430ff393792": {
-        "QuestName": "Living high is not a crime Part 2"
+        "QuestName": "Living high is not a crime Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c112d7e86f7740d6f647486": {
-        "QuestName": "Scavenger"
+        "QuestName": "Scavenger",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5e383a6386f77465910ce1f3": {
-        "QuestName": "Textile Part 1 - Usec"
+        "QuestName": "Textile Part 1 - Usec",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5e4d515e86f77438b2195244": {
-        "QuestName": "Textile Part 2 - Usec"
+        "QuestName": "Textile Part 2 - Usec",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5dc53acb86f77469c740c893": {
-        "QuestName": "The stylish one"
+        "QuestName": "The stylish one",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "608974d01a66564e74191fc0": {
-        "QuestName": "Fuel matter"
+        "QuestName": "Fuel matter",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "608974af4b05530f55550c21": {
-        "QuestName": "Inventory check"
+        "QuestName": "Inventory check",
+        "IsKeyRequired": true,
+        "RequiredKey": "RB-OB key AND RB-ORB1 key AND RB-ORB2 key AND RB-ORB3 key",
+        "OptionalKey": ""
     },
 
     "608a768d82e40b3c727fd17d": {
-        "QuestName": "Pest control"
+        "QuestName": "Pest control",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c51aac186f77432ea65c552": {
-        "QuestName": "Collector"
+        "QuestName": "Collector",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60effd818b669d08a35bfad5": {
-        "QuestName": "The Choice"
+        "QuestName": "The Choice",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d2495a886f77425cd51e403": {
-        "QuestName": "Introduction"
+        "QuestName": "Introduction",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d24b81486f77439c92d6ba8": {
-        "QuestName": "Acquaintance"
+        "QuestName": "Acquaintance",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25aed386f77442734d25d2": {
-        "QuestName": "The survivalist path Unprotected but dangerous"
+        "QuestName": "The survivalist path Unprotected but dangerous",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25b6be86f77444001e1b89": {
-        "QuestName": "The survivalist path Thrifty"
+        "QuestName": "The survivalist path Thrifty",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25bfd086f77442734d3007": {
-        "QuestName": "The survivalist path Zhivchik"
+        "QuestName": "The survivalist path Zhivchik",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25c81b86f77443e625dd71": {
-        "QuestName": "The survivalist path Wounded beast"
+        "QuestName": "The survivalist path Wounded beast",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25cf2686f77443e75488d4": {
-        "QuestName": "The survivalist path Tough guy"
+        "QuestName": "The survivalist path Tough guy",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25d2c186f77443e35162e5": {
-        "QuestName": "The survivalist path Cold blooded"
+        "QuestName": "The survivalist path Cold blooded",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5eaaaa7c93afa0558f3b5a1c": {
-        "QuestName": "The survivalist path Junkie"
+        "QuestName": "The survivalist path Junkie",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e29d86f7740a22516326": {
-        "QuestName": "The survivalist path Eagle-owl"
+        "QuestName": "The survivalist path Eagle-owl",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60c0c018f7afb4354815096a": {
-        "QuestName": "Huntsman Path- Factory Chief"
+        "QuestName": "Huntsman Path- Factory Chief",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
     
     "5d25e2a986f77409dd5cdf2a": {
-        "QuestName": "The survivalist path Combat medic"
+        "QuestName": "The survivalist path Combat medic",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e2b486f77409de05bba0": {
-        "QuestName": "Huntsman path Secured perimeter"
+        "QuestName": "Huntsman path Secured perimeter",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e2c386f77443e7549029": {
-        "QuestName": "Huntsman path The trophy"
+        "QuestName": "Huntsman path The trophy",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e2cc86f77443e47ae019": {
-        "QuestName": "Huntsman path Forest cleaning"
+        "QuestName": "Huntsman path Forest cleaning",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e2d886f77442734d335e": {
-        "QuestName": "Huntsman path Controller"
+        "QuestName": "Huntsman path Controller",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e2e286f77444001e2e48": {
-        "QuestName": "Huntsman path Sell-out"
+        "QuestName": "Huntsman path Sell-out",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e43786f7740a212217fa": {
-        "QuestName": "Huntsman path Justice"
+        "QuestName": "Huntsman path Justice",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e2ee86f77443e35162ea": {
-        "QuestName": "Huntsman path Woods keeper"
+        "QuestName": "Huntsman path Woods keeper",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e44386f77409453bce7b": {
-        "QuestName": "Huntsman path Evil watchman"
+        "QuestName": "Huntsman path Evil watchman",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e44f86f77443e625e385": {
-        "QuestName": "Huntsman path Eraser Part 1"
+        "QuestName": "Huntsman path Eraser Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e45e86f77408251c4bfa": {
-        "QuestName": "Huntsman path Eraser Part 2"
+        "QuestName": "Huntsman path Eraser Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e46e86f77409453bce7c": {
-        "QuestName": "Ambulance"
+        "QuestName": "Ambulance",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e48186f77443e625e386": {
-        "QuestName": "Courtesy visit"
+        "QuestName": "Courtesy visit",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e48d86f77408251c4bfb": {
-        "QuestName": "Shady business"
+        "QuestName": "Shady business",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e4ad86f77443e625e387": {
-        "QuestName": "Nostalgia"
+        "QuestName": "Nostalgia",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e4b786f77408251c4bfc": {
-        "QuestName": "Fishing place"
+        "QuestName": "Fishing place",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e4ca86f77409dd5cdf2c": {
-        "QuestName": "Hunting trip"
+        "QuestName": "Hunting trip",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d25e4d586f77443e625e388": {
-        "QuestName": "Reserve"
+        "QuestName": "Reserve",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5edab4b1218d181e29451435": {
-        "QuestName": "Huntsman path Sadist"
+        "QuestName": "Huntsman path Sadist",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e729cf5698ee7b05057439": {
-        "QuestName": "Swift One"
+        "QuestName": "Swift One",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71e8ed54b755a3b53eb67": {
-        "QuestName": "Huntsman Path - Relentless"
+        "QuestName": "Huntsman Path - Relentless",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "626bdcc3a371ee3a7a3514c5": {
-        "QuestName": "Stray Dogs"
+        "QuestName": "Stray Dogs",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "626bd75d5bef5d7d590bd415": {
-        "QuestName": "Top Secret"
+        "QuestName": "Top Secret",
+        "IsKeyRequired": true,
+        "RequiredKey": "Radar station commandant room key",
+        "OptionalKey": ""
     },
 
     "626bd75e47ea7f506e5493c5": {
-        "QuestName": "Broadcast Part 1"
+        "QuestName": "Broadcast Part 1",
+        "IsKeyRequired": true,
+        "RequiredKey": "Operating room key",
+        "OptionalKey": ""
     },
 
     "626bd75c71bd851e971b82a5": {
-        "QuestName": "Reconnaissance"
+        "QuestName": "Reconnaissance",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "626bd75b05f287031503c7f6": {
-        "QuestName": "Drug Trafficking"
+        "QuestName": "Drug Trafficking",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596b36c586f77450d6045ad2": {
-        "QuestName": "Supplier"
+        "QuestName": "Supplier",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596b43fb86f77457ca186186": {
-        "QuestName": "The Extortionist"
+        "QuestName": "The Extortionist",
+        "IsKeyRequired": true,
+        "RequiredKey": "Unknown key",
+        "OptionalKey": ""
     },
 
     "596b455186f77457cb50eccb": {
-        "QuestName": "Stirrup"
+        "QuestName": "Stirrup",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5979ed3886f77431307dc512": {
-        "QuestName": "Whats on the flash drive"
+        "QuestName": "Whats on the flash drive",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5979eee086f774311955e614": {
-        "QuestName": "Golden swag"
+        "QuestName": "Golden swag",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 303 key, Trailer park portable cabin key(Given when accepting task)",
+        "OptionalKey": ""
     },
 
     "5979f9ba86f7740f6c3fe9f2": {
-        "QuestName": "Chemical Part 1"
+        "QuestName": "Chemical Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "597a0b2986f77426d66c0633": {
-        "QuestName": "Chemical Part 2"
+        "QuestName": "Chemical Part 2",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 220 key",
+        "OptionalKey": ""
     },
 
     "597a0e5786f77426d66c0636": {
-        "QuestName": "Chemical Part 3"
+        "QuestName": "Chemical Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b4794cb86f774598100d5d4": {
-        "QuestName": "Lend lease pt 1"
+        "QuestName": "Lend lease pt 1",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort west wing room 216 key AND Health Resort east wing room 306 key OR Health Resort east wing room 308 key",
+        "OptionalKey": ""
     },
 
     "597a0f5686f774273b74f676": {
-        "QuestName": "Chemical Part 4"
+        "QuestName": "Chemical Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59c93e8e86f7742a406989c4": {
-        "QuestName": "Loyalty buyout"
+        "QuestName": "Loyalty buyout",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596a101f86f7741ddb481582": {
-        "QuestName": "Kind of sabotage"
+        "QuestName": "Kind of sabotage",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27c99a86f7747d2c6bdd8e": {
-        "QuestName": "Friend from the West Part 1"
+        "QuestName": "Friend from the West Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27d2af86f7744e1115b323": {
-        "QuestName": "Friend from the West Part 2"
+        "QuestName": "Friend from the West Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b478eca86f7744642012254": {
-        "QuestName": "Vitamins Part 1"
+        "QuestName": "Vitamins Part 1",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort west wing office room 112 key AND EMERCOM medical unit key",
+        "OptionalKey": ""
     },
 
     "5b478ff486f7744d184ecbbf": {
-        "QuestName": "Vitamins Part 2"
+        "QuestName": "Vitamins Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b47926a86f7747ccc057c15": {
-        "QuestName": "Informed means armed"
+        "QuestName": "Informed means armed",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b4795fb86f7745876267770": {
-        "QuestName": "Chumming"
+        "QuestName": "Chumming",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0bc91486f7746ab41857a2": {
-        "QuestName": "Silent caliber"
+        "QuestName": "Silent caliber",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0bbaa886f7746941031d82": {
-        "QuestName": "Bullshit"
+        "QuestName": "Bullshit",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c1234c286f77406fa13baeb": {
-        "QuestName": "Setup"
+        "QuestName": "Setup",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0bdb5286f774166e38eed4": {
-        "QuestName": "Flint"
+        "QuestName": "Flint",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5edabd13218d181e29451442": {
-        "QuestName": "Rigged game"
+        "QuestName": "Rigged game",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71c11d54b755a3b53eb65": {
-        "QuestName": "Night Sweep"
+        "QuestName": "Night Sweep",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6089743983426423753cd58a": {
-        "QuestName": "Safe corridor"
+        "QuestName": "Safe corridor",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "600302d73b897b11364cd161": {
-        "QuestName": "Hunter"
+        "QuestName": "Hunter",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c1128e386f7746565181106": {
-        "QuestName": "Fertilizers"
+        "QuestName": "Fertilizers",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0bde0986f77479cf22c2f8": {
-        "QuestName": "A Shooter Born in Heaven"
+        "QuestName": "A Shooter Born in Heaven",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c139eb686f7747878361a6f": {
-        "QuestName": "Import"
+        "QuestName": "Import",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0be13186f7746f016734aa": {
-        "QuestName": "Psycho Sniper"
+        "QuestName": "Psycho Sniper",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5f04886a3937dc337a6b8238": {
-        "QuestName": "The chemistry closet"
+        "QuestName": "The chemistry closet",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort office key with a blue tape",
+        "OptionalKey": ""
     },
 
     "60e71d23c1bfa3050473b8e6": {
-        "QuestName": "Calibration"
+        "QuestName": "Calibration",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71d6d7fcf9c556f325055": {
-        "QuestName": "The Courier"
+        "QuestName": "The Courier",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6089736efa70fc097863b8f6": {
-        "QuestName": "Back door"
+        "QuestName": "Back door",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6089732b59b92115597ad789": {
-        "QuestName": "Surplus goods"
+        "QuestName": "Surplus goods",
+        "IsKeyRequired": true,
+        "RequiredKey": "RB-ST key",
+        "OptionalKey": ""
     },
 
     "5a27b75b86f7742e97191958": {
-        "QuestName": "Fishing Gear"
+        "QuestName": "Fishing Gear",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27b7a786f774579c3eb376": {
-        "QuestName": "Tigr Safari"
+        "QuestName": "Tigr Safari",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27b7d686f77460d847e6a6": {
-        "QuestName": "Scrap Metal"
+        "QuestName": "Scrap Metal",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27b80086f774429a5d7e20": {
-        "QuestName": "Eagle Eye"
+        "QuestName": "Eagle Eye",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27b87686f77460de0252a8": {
-        "QuestName": "Humanitarian Supplies"
+        "QuestName": "Humanitarian Supplies",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27b9de86f77464e5044585": {
-        "QuestName": "The Cult Part 1"
+        "QuestName": "The Cult Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27ba1c86f77461ea5a3c56": {
-        "QuestName": "The Cult Part 2"
+        "QuestName": "The Cult Part 2",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 314 marked key",
+        "OptionalKey": ""
     },
 
     "5a03153686f77442d90e2171": {
-        "QuestName": "Spa Tour Part 1"
+        "QuestName": "Spa Tour Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a03173786f77451cb427172": {
-        "QuestName": "Spa Tour Part 2"
+        "QuestName": "Spa Tour Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a0327ba86f77456b9154236": {
-        "QuestName": "Spa Tour Part 3"
+        "QuestName": "Spa Tour Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a03296886f774569778596a": {
-        "QuestName": "Spa Tour Part 4"
+        "QuestName": "Spa Tour Part 4",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort west wing room 219 key OR Health Resort west wing room 220 key",
+        "OptionalKey": ""
     },
 
     "5a0449d586f77474e66227b7": {
-        "QuestName": "Spa Tour Part 5"
+        "QuestName": "Spa Tour Part 5",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27ba9586f7741b543d8e85": {
-        "QuestName": "Spa Tour Part 6"
+        "QuestName": "Spa Tour Part 6",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bafb86f7741c73584017": {
-        "QuestName": "Spa Tour Part 7"
+        "QuestName": "Spa Tour Part 7",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bb1e86f7741f27621b7e": {
-        "QuestName": "Cargo X Part 1"
+        "QuestName": "Cargo X Part 1",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort east wing room 306 key OR Health Resort east wing room 308 key",
+        "OptionalKey": ""
     },
 
     "5a27bb3d86f77411ea361a21": {
-        "QuestName": "Cargo X Part 2"
+        "QuestName": "Cargo X Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bb5986f7741dfb660900": {
-        "QuestName": "Cargo X Part 3"
+        "QuestName": "Cargo X Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bb8386f7741c770d2d0a": {
-        "QuestName": "Wet Job Part 1"
+        "QuestName": "Wet Job Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bbf886f774333a418eeb": {
-        "QuestName": "Wet Job Part 2"
+        "QuestName": "Wet Job Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bc1586f7741f6d40fa2f": {
-        "QuestName": "Wet Job Part 3"
+        "QuestName": "Wet Job Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bc3686f7741c73584026": {
-        "QuestName": "Wet Job Part 4"
+        "QuestName": "Wet Job Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d6fbc2886f77449d825f9d3": {
-        "QuestName": "Mentor"
+        "QuestName": "Mentor",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a27bc6986f7741c7358402b": {
-        "QuestName": "Wet Job Part 5"
+        "QuestName": "Wet Job Part 5",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort east wing room 328 key OR Health Resort universal utility room key",
+        "OptionalKey": ""
     },
 
     "5a27bc8586f7741b543d8ea4": {
-        "QuestName": "Wet Job Part 6"
+        "QuestName": "Wet Job Part 6",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0d0f1886f77457b8210226": {
-        "QuestName": "Lend lease Part 2"
+        "QuestName": "Lend lease Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0d4c12d09282029f539173": {
-        "QuestName": "Peacekeeping mission"
+        "QuestName": "Peacekeeping mission",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0d4e61d09282029f53920e": {
-        "QuestName": "The guide"
+        "QuestName": "The guide",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5edac020218d181e29451446": {
-        "QuestName": "Samples"
+        "QuestName": "Samples",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5edac63b930f5454f51e128b": {
-        "QuestName": "TerraGroup employee"
+        "QuestName": "TerraGroup employee",
+        "IsKeyRequired": true,
+        "RequiredKey": "Keycard with a blue marking",
+        "OptionalKey": ""
     },
 
     "60e71c9ad54b755a3b53eb66": {
-        "QuestName": "The Cleaner"
+        "QuestName": "The Cleaner",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71ccb5688f6424c7bfec4": {
-        "QuestName": "Trophies"
+        "QuestName": "Trophies",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71ce009d7c801eb0c0ec6": {
-        "QuestName": "Special Equipment"
+        "QuestName": "Special Equipment",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6086c852c945025d41566124": {
-        "QuestName": "Revision - Reserve"
+        "QuestName": "Revision - Reserve",
+        "IsKeyRequired": true,
+        "RequiredKey": "RB-ST key",
+        "OptionalKey": ""
     },
 
     "60896888e4a85c72ef3fa300": {
-        "QuestName": "Classified Technologies"
+        "QuestName": "Classified Technologies",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5936d90786f7742b1420ba5b": {
-        "QuestName": "Debut"
+        "QuestName": "Debut",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5936da9e86f7742d65037edf": {
-        "QuestName": "Checking"
+        "QuestName": "Checking",
+        "IsKeyRequired": true,
+        "RequiredKey": "Machinery key",
+        "OptionalKey": ""
     },
 
     "59674cd986f7744ab26e32f2": {
-        "QuestName": "Shootout picnic"
+        "QuestName": "Shootout picnic",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59674eb386f774539f14813a": {
-        "QuestName": "Delivery from the past"
+        "QuestName": "Delivery from the past",
+        "IsKeyRequired": true,
+        "RequiredKey": "Tarcone Director's office key",
+        "OptionalKey": ""
     },
 
     "59c124d686f774189b3c843f": {
-        "QuestName": "BP depot"
+        "QuestName": "BP depot",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5979f8bb86f7743ec214c7a6": {
-        "QuestName": "Polikhim hobo"
+        "QuestName": "Polikhim hobo",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5967530a86f77462ba22226b": {
-        "QuestName": "Bad rep evidence"
+        "QuestName": "Bad rep evidence",
+        "IsKeyRequired": true,
+        "RequiredKey": "Portable Bunkhouse key",
+        "OptionalKey": ""
     },
 
     "59675d6c86f7740a842fc482": {
-        "QuestName": "Ice cream cones"
+        "QuestName": "Ice cream cones",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": "ZB-014"
     },
 
     "59675ea386f77414b32bded2": {
-        "QuestName": "Postman Pat Part 1"
+        "QuestName": "Postman Pat Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "597a171586f77405ba6887d3": {
-        "QuestName": "Big customer"
+        "QuestName": "Big customer",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5967725e86f774601a446662": {
-        "QuestName": "Shaking up teller"
+        "QuestName": "Shaking up the teller",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 203 key",
+        "OptionalKey": "Dorm room 214 key"
     },
 
     "59ca1a6286f774509a270942": {
-        "QuestName": "No offence"
+        "QuestName": "No offence",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59c50a9e86f7745fef66f4ff": {
-        "QuestName": "The Punisher Part 1"
+        "QuestName": "The Punisher Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59c50c8886f7745fed3193bf": {
-        "QuestName": "The Punisher Part 2"
+        "QuestName": "The Punisher Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59c512ad86f7741f0d09de9b": {
-        "QuestName": "The Punisher Part 3"
+        "QuestName": "The Punisher Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59ca264786f77445a80ed044": {
-        "QuestName": "The Punisher Part 4"
+        "QuestName": "The Punisher Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59ca29fb86f77445ab465c87": {
-        "QuestName": "The Punisher Part 5"
+        "QuestName": "The Punisher Part 5",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59ca2eb686f77445a80ed049": {
-        "QuestName": "The Punisher Part 6"
+        "QuestName": "The Punisher Part 6",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0bd01e86f7747cdd799e56": {
-        "QuestName": "Insomnia"
+        "QuestName": "Insomnia",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0d190cd09282029f5390d8": {
-        "QuestName": "Grenadier"
+        "QuestName": "Grenadier",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c12452c86f7744b83469073": {
-        "QuestName": "Perfect mediator"
+        "QuestName": "Perfect mediator",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5eda19f0edce541157209cee": {
-        "QuestName": "Anesthesia"
+        "QuestName": "Anesthesia",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0bd94186f7747a727f09b2": {
-        "QuestName": "Test drive Part 1"
+        "QuestName": "Test drive Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ede55112c95834b583f052a": {
-        "QuestName": "Bunker Part 1"
+        "QuestName": "Bunker Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ede567cfa6dc072ce15d6e3": {
-        "QuestName": "Bunker Part 2"
+        "QuestName": "Bunker Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71b62a0beca400d69efc4": {
-        "QuestName": "Escort"
+        "QuestName": "Escort",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71b9bbd90872cb85440f3": {
-        "QuestName": "Capturing Outposts"
+        "QuestName": "Capturing Outposts",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71bb4e456d449cd47ca75": {
-        "QuestName": "Intimidator"
+        "QuestName": "Intimidator",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60896b7bfa70fc097863b8f5": {
-        "QuestName": "Documents"
+        "QuestName": "Documents",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d4bec3486f7743cac246665": {
-        "QuestName": "Regulated materials"
+        "QuestName": "Regulated materials",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60896bca6ee58f38c417d4f2": {
-        "QuestName": "No place for renegades"
+        "QuestName": "No place for renegades",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5fd9fad9c1ce6b1a3b486d00": {
-        "QuestName": "Search Mission"
+        "QuestName": "Search Mission",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179ac7511973d018217d0b9": {
-        "QuestName": "Easy Job Part 1"
+        "QuestName": "Easy Job Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179b3a12153c15e937d52bc": {
-        "QuestName": "Energy Crisis"
+        "QuestName": "Energy Crisis",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179b3bdc7560e13d23eeb8d": {
-        "QuestName": "Corporate Secrets"
+        "QuestName": "Corporate Secrets",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179b4f16e9dd54ac275e407": {
-        "QuestName": "Missing Cargo"
+        "QuestName": "Missing Cargo",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179b4d1bca27a099552e04e": {
-        "QuestName": "Revision - Lighthouse"
+        "QuestName": "Revision - Lighthouse",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "61904daa7d0d857927447b9c": {
-        "QuestName": "The Hermit"
+        "QuestName": "The Hermit",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6193850f60b34236ee0483de": {
-        "QuestName": "Long Road"
+        "QuestName": "Long Road",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "61958c366726521dd96828ec": {
-        "QuestName": "Cargo X Part 4"
+        "QuestName": "Cargo X Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179acbdc760af5ad2053585": {
-        "QuestName": "Easy Job Part 2"
+        "QuestName": "Easy Job Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179ad0a6e9dd54ac275e3f2": {
-        "QuestName": "Huntsman Path Outcasts"
+        "QuestName": "Huntsman Path Outcasts",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179ad56c760af5ad2053587": {
-        "QuestName": "Seaside Vacation"
+        "QuestName": "Seaside Vacation",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179afd0bca27a099552e040": {
-        "QuestName": "Lost Contact"
+        "QuestName": "Lost Contact",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179aff8f57fb279792c60a1": {
-        "QuestName": "Overpopulation"
+        "QuestName": "Overpopulation",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179b5eabca27a099552e052": {
-        "QuestName": "Counteraction"
+        "QuestName": "Counteraction",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc4776586f774512d07cf05": {
-        "QuestName": "The Tarkov shooter Part 1"
+        "QuestName": "The Tarkov shooter Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc479e586f7747f376c7da3": {
-        "QuestName": "The Tarkov shooter Part 2"
+        "QuestName": "The Tarkov shooter Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc47dbf86f7741ee74e93b9": {
-        "QuestName": "The Tarkov shooter Part 3"
+        "QuestName": "The Tarkov shooter Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc480a686f7741af0342e29": {
-        "QuestName": "The Tarkov shooter Part 4"
+        "QuestName": "The Tarkov shooter Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc4826c86f774106d22d88b": {
-        "QuestName": "The Tarkov shooter Part 5"
+        "QuestName": "The Tarkov shooter Part 5",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc4836986f7740c0152911c": {
-        "QuestName": "The Tarkov shooter Part 6"
+        "QuestName": "The Tarkov shooter Part 6",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc4856986f77454c317bea7": {
-        "QuestName": "The Tarkov shooter Part 7"
+        "QuestName": "The Tarkov shooter Part 7",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5bc4893c86f774626f5ebf3e": {
-        "QuestName": "The Tarkov shooter Part 8"
+        "QuestName": "The Tarkov shooter Part 8",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5967733e86f774602332fc84": {
-        "QuestName": "Shortage"
+        "QuestName": "Shortage",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59689ee586f7740d1570bbd5": {
-        "QuestName": "Sanitary Standards Part 1"
+        "QuestName": "Sanitary Standards Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596a204686f774576d4c95de": {
-        "QuestName": "Sanitary Standards Part 2"
+        "QuestName": "Sanitary Standards Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59689fbd86f7740d137ebfc4": {
-        "QuestName": "Operation Aquarius Part 1"
+        "QuestName": "Operation Aquarius Part 1",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 206 key",
+        "OptionalKey": ""
     },
 
     "5968eb3186f7741dde183a4d": {
-        "QuestName": "Operation Aquarius Part 2"
+        "QuestName": "Operation Aquarius Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5969f90786f77420d2328015": {
-        "QuestName": "Painkiller"
+        "QuestName": "Painkiller",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5969f9e986f7741dde183a50": {
-        "QuestName": "Pharmacist"
+        "QuestName": "Pharmacist",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 114 key",
+        "OptionalKey": ""
     },
 
     "596a0e1686f7741ddf17dbee": {
-        "QuestName": "Supply plans"
+        "QuestName": "Supply plans",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596a1e6c86f7741ddc2d3206": {
-        "QuestName": "General wares"
+        "QuestName": "General wares",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596760e186f7741e11214d58": {
-        "QuestName": "Postman Pat Part 2"
+        "QuestName": "Postman Pat Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "597a160786f77477531d39d2": {
-        "QuestName": "Out of curiosity"
+        "QuestName": "Out of curiosity",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "596a218586f77420d232807c": {
-        "QuestName": "Car repair"
+        "QuestName": "Car repair",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a68661a86f774500f48afb0": {
-        "QuestName": "Health Care Privacy Part 1"
+        "QuestName": "Health Care Privacy Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a68663e86f774501078f78a": {
-        "QuestName": "Health Care Privacy Part 2"
+        "QuestName": "Health Care Privacy Part 2",
+        "IsKeyRequired": true,
+        "RequiredKey": "Health Resort west wing room 306 key",
+        "OptionalKey": ""
     },
 
     "5a68665c86f774255929b4c7": {
-        "QuestName": "Health Care Privacy Part 3"
+        "QuestName": "Health Care Privacy Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5d6fb2c086f77449da599c24": {
-        "QuestName": "An apple a day - keeps the doctor away"
+        "QuestName": "An apple a day - keeps the doctor away",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a68667486f7742607157d28": {
-        "QuestName": "Health Care Privacy Part 4"
+        "QuestName": "Health Care Privacy Part 4",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a68669a86f774255929b4d4": {
-        "QuestName": "Health Care Privacy Part 5"
+        "QuestName": "Health Care Privacy Part 5",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0be5fc86f774467a116593": {
-        "QuestName": "Private clinic"
+        "QuestName": "Private clinic",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0d1c4cd0928202a02a6f5c": {
-        "QuestName": "Decontamination service"
+        "QuestName": "Decontamination service",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5c0d0d5086f774363760aef2": {
-        "QuestName": "Athlete"
+        "QuestName": "Athlete",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5edab736cc183c769d778bc2": {
-        "QuestName": "Colleagues Part 1"
+        "QuestName": "Colleagues Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5edaba7c0c502106f869bc02": {
-        "QuestName": "Colleagues Part 2"
+        "QuestName": "Colleagues Part 2",
+        "IsKeyRequired": true,
+        "RequiredKey": "Cottage back door key",
+        "OptionalKey": ""
     },
 
     "5edac34d0bb72a50635c2bfa": {
-        "QuestName": "Colleagues Part 3"
+        "QuestName": "Colleagues Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60e71c48c1bfa3050473b8e5": {
-        "QuestName": "Crisis"
+        "QuestName": "Crisis",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "60896e28e4a85c72ef3fa301": {
-        "QuestName": "Disease history"
+        "QuestName": "Disease history",
+        "IsKeyRequired": true,
+        "RequiredKey": "RB-KSM key AND RB-SMP key",
+        "OptionalKey": ""
     },
 
     "63966faeea19ac7ed845db2c": {
-        "QuestName": "Information Source"
+        "QuestName": "Information Source",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5ac242ab86f77412464f68b4": {
-        "QuestName": "Gunsmith Part 16"
+        "QuestName": "Gunsmith Part 16",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b47749f86f7746c5d6a5fd4": {
-        "QuestName": "Gunsmith Part 17"
+        "QuestName": "Gunsmith Part 17",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b477b6f86f7747290681823": {
-        "QuestName": "Gunsmith Part 18"
+        "QuestName": "Gunsmith Part 18",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639873003693c63d86328f25": {
-        "QuestName": "Gunsmith Part 19"
+        "QuestName": "Gunsmith Part 19",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b477f7686f7744d1b23c4d2": {
-        "QuestName": "Gunsmith Part 20"
+        "QuestName": "Gunsmith Part 20",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63987301e11ec11ff5504036": {
-        "QuestName": "Gunsmith Part 21"
+        "QuestName": "Gunsmith Part 21",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5b47825886f77468074618d3": {
-        "QuestName": "Gunsmith Part 22"
+        "QuestName": "Gunsmith Part 22",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639135d89444fb141f4e6eea": {
-        "QuestName": "Population Census"
+        "QuestName": "Population Census",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639135e0fa894f0a866afde6": {
-        "QuestName": "Urban Medicine"
+        "QuestName": "Urban Medicine",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639135e8c115f907b14700aa": {
-        "QuestName": "Surveillance"
+        "QuestName": "Surveillance",
+        "IsKeyRequired": true,
+        "RequiredKey": "Concordia security room key",
+        "OptionalKey": ""
     },
 
     "639135f286e646067c176a87": {
-        "QuestName": "Revision - Streets Of Tarkov"
+        "QuestName": "Revision - Streets Of Tarkov",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639282134ed9512be67647ed": {
-        "QuestName": "Road Closed"
+        "QuestName": "Road Closed",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639136df4b15ca31f76bc31f": {
-        "QuestName": "The Huntsman Path Administrator"
+        "QuestName": "The Huntsman Path Administrator",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639136e84ed9512be67647db": {
-        "QuestName": "CeaseFire"
+        "QuestName": "CeaseFire",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "638fcd23dc65553116701d33": {
-        "QuestName": "Audit"
+        "QuestName": "Audit",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639136fa9444fb141f4e6eee": {
-        "QuestName": "Watching You"
+        "QuestName": "Watching You",
+        "IsKeyRequired": true,
+        "RequiredKey": "Hotel room 215 key",
+        "OptionalKey": ""
     },
 
     "63913703e705511c8a4a1b7c": {
-        "QuestName": "Harley Forever"
+        "QuestName": "Harley Forever",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63913715f8e5dd32bf4e3aaa": {
-        "QuestName": "Broadcast Part 2"
+        "QuestName": "Broadcast Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6391372c8ba6894d155e77d7": {
-        "QuestName": "Broadcast - Part 4"
+        "QuestName": "Broadcast - Part 4",
+        "IsKeyRequired": true,
+        "RequiredKey": "Abandoned factory marked key",
+        "OptionalKey": ""
     },
 
     "639dbaf17c898a131e1cffff": {
-        "QuestName": "Debtor"
+        "QuestName": "Debtor",
+        "IsKeyRequired": true,
+        "RequiredKey": "Hotel room 206 key",
+        "OptionalKey": ""
     },
 
     "639135534b15ca31f76bc317": {
-        "QuestName": "Your Car Needs a Service"
+        "QuestName": "Your Car Needs a Service",
+        "IsKeyRequired": true,
+        "RequiredKey": "Car dealership director's office room key AND Car dealership closed section key",
+        "OptionalKey": ""
     },
 
     "63a88045abf76d719f42d715": {
-        "QuestName": "The Delicious Sausage"
+        "QuestName": "The Delicious Sausage",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6391359b9444fb141f4e6ee6": {
-        "QuestName": "Youve Got Mail"
+        "QuestName": "Youve Got Mail",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639135a7e705511c8a4a1b78": {
-        "QuestName": "Ballet Lover"
+        "QuestName": "Ballet Lover",
+        "IsKeyRequired": true,
+        "RequiredKey": "Primorsky 46-48 skybridge key",
+        "OptionalKey": ""
     },
 
     "639135b04ed9512be67647d7": {
-        "QuestName": "Glory to CPSU"
+        "QuestName": "Glory to CPSU",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639135bbc115f907b14700a6": {
-        "QuestName": "Audiophile"
+        "QuestName": "Audiophile",
+        "IsKeyRequired": true,
+        "RequiredKey": "Primorsky 46-48 skybridge key",
+        "OptionalKey": ""
     },
 
     "639135c3744e452011470807": {
-        "QuestName": "House Arrest - Part 1"
+        "QuestName": "House Arrest - Part 1",
+        "IsKeyRequired": true,
+        "RequiredKey": "Iron gate key",
+        "OptionalKey": ""
     },
 
     "639135cd8ba6894d155e77cb": {
-        "QuestName": "House Arrest - Part 2"
+        "QuestName": "House Arrest - Part 2",
+        "IsKeyRequired": true,
+        "RequiredKey": "Chekannaya 15 apartment key",
+        "OptionalKey": ""
     },
 
     "63966fccac6f8f3c677b9d89": {
-        "QuestName": "Snatch"
+        "QuestName": "Snatch",
+        "IsKeyRequired": true,
+        "RequiredKey": "RB-ST key",
+        "OptionalKey": ""
     },
 
     "625d6ff5ddc94657c21a1625": {
-        "QuestName": "Network Provider - Part 1"
+        "QuestName": "Network Provider - Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d6ffaf7308432be1d44c5": {
-        "QuestName": "Network Provider - Part 2"
+        "QuestName": "Network Provider - Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d6ffcaa168e51321d69d7": {
-        "QuestName": "Assessment - Part 1"
+        "QuestName": "Assessment - Part 1",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d6fff4149f1149b5b12c9": {
-        "QuestName": "Assessment - Part 2"
+        "QuestName": "Assessment - Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d7001c4874104f230c0c5": {
-        "QuestName": "Assessment - Part 3"
+        "QuestName": "Assessment - Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d70031ed3bb5bcc5bd9e5": {
-        "QuestName": "Key to the Tower"
+        "QuestName": "Key to the Tower",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d7005a4eb80027c4f2e09": {
-        "QuestName": "Knock - Knock"
+        "QuestName": "Knock - Knock",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "625d700cc48e6c62a440fab5": {
-        "QuestName": "Getting Acquainted"
+        "QuestName": "Getting Acquainted",
+        "IsKeyRequired": true,
+        "RequiredKey": "Water treatment plant storage room key AND Rogue USEC barrack key",
+        "OptionalKey": ""
     },
 
     "63a5cf262964a7488f5243ce": {
-        "QuestName": "Test Drive - Part 2"
+        "QuestName": "Test Drive - Part 2",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63a9b36cc31b00242d28a99f": {
-        "QuestName": "Slaughterhouse"
+        "QuestName": "Slaughterhouse",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63a9b229813bba58a50c9ee5": {
-        "QuestName": "Worst Job in the World"
+        "QuestName": "Worst Job in the World",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63966fbeea19ac7ed845db2e": {
-        "QuestName": "Missing Informant"
+        "QuestName": "Missing Informant",
+        "IsKeyRequired": true,
+        "RequiredKey": "Backup hideout key",
+        "OptionalKey": ""
     },
 
     "63a511ea30d85e10e375b045": {
-        "QuestName": "Broadcast - Part 3"
+        "QuestName": "Broadcast - Part 3",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63a9ae24009ffc6a551631a5": {
-        "QuestName": "Best Job in the World"
+        "QuestName": "Best Job in the World",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639136f086e646067c176a8b": {
-        "QuestName": "Kings Of The Rooftops"
+        "QuestName": "Kings Of The Rooftops",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "641dbfd7f43eda9d810d7137": {
-        "QuestName": "Important Patient-Event"
+        "QuestName": "Important Patient-Event",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "647710905320c660d91c15a5": {
-        "QuestName": "Hint-Event"
+        "QuestName": "Hint-Event",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "64764abcd125ab430a14ccb5": {
-        "QuestName": "Bloodhounds-Event"
+        "QuestName": "Bloodhounds-Event",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5e381b0286f77420e3417a74": {
-        "QuestName": "Textile Part 1 - Bear"
+        "QuestName": "Textile Part 1 - Bear",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5e4d4ac186f774264f758336": {
-        "QuestName": "Textile Part 2 - Bear"
+        "QuestName": "Textile Part 2 - Bear",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "6179b5b06e9dd54ac275e409": {
-        "QuestName": "Our Own Land"
+        "QuestName": "Our Own Land",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "639136d68ba6894d155e77cf": {
-        "QuestName": "Green Corridor"
+        "QuestName": "Green Corridor",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "59c9392986f7742f6923add2": {
-        "QuestName": "Trust regain"
+        "QuestName": "Trust regain",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "61e6e615eea2935bc018a2c5": {
-        "QuestName": "Compensation For Damage - Barkeep"
+        "QuestName": "Compensation For Damage - Barkeep",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "61e6e60223374d168a4576a6": {
-        "QuestName": "Compensation For Damage - Wager"
+        "QuestName": "Compensation For Damage - Wager",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63966fe7ea74a47c2d3fc0e6": {
-        "QuestName": "Return the Favor"
+        "QuestName": "Return the Favor",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63966fd9ea19ac7ed845db30": {
-        "QuestName": "Payback"
+        "QuestName": "Payback",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63966ff54c3ef01b6f3ffad8": {
-        "QuestName": "Provocation"
+        "QuestName": "Provocation",
+        "IsKeyRequired": true,
+        "RequiredKey": "Kiba Arms outer door key AND Kiba Arms inner grate door key AND Object #11SR keycard AND Object #21WS keycard",
+        "OptionalKey": ""
     },
 
     "639670029113f06a7c3b2377": {
-        "QuestName": "Following the Bread Crumbs"
+        "QuestName": "Following the Bread Crumbs",
+        "IsKeyRequired": true,
+        "RequiredKey": "TerraGroup Labs keycard (Black) AND TerraGroup Labs weapon testing area key AND TerraGroup Labs manager's office room key",
+        "OptionalKey": ""
     },
 
     "6396700fea19ac7ed845db32": {
-        "QuestName": "Spotter"
+        "QuestName": "Spotter",
+        "IsKeyRequired": true,
+        "RequiredKey": "Primorsky 46-48 skybridge key",
+        "OptionalKey": ""
     },
 
     "6396701b9113f06a7c3b2379": {
-        "QuestName": "Make an Impression"
+        "QuestName": "Make an Impression",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "63967028c4a91c5cb76abd81": {
-        "QuestName": "Trouble in the Big City"
+        "QuestName": "Trouble in the Big City",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "5a5642ce86f77445c63c3419": {
-        "QuestName": "Hippocratic Oath"
+        "QuestName": "Hippocratic Oath",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "61e6e5e0f5b9633f6719ed95": {
-        "QuestName": "Compensation For Damage - Trust"
+        "QuestName": "Compensation For Damage - Trust",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     },
 
     "61e6e621bfeab00251576265": {
-        "QuestName": "Compensation For Damage - Collection"
+        "QuestName": "Compensation For Damage - Collection",
+        "IsKeyRequired": false,
+        "RequiredKey": "",
+        "OptionalKey": ""
     }
 }
