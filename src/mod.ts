@@ -15,11 +15,12 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     private logger: ILogger;
     private mod;
     private modConfig = require("../config/config.json");
-    private dbEN = require("../db/localeEN.json")
+    private dbEN: JSON = require("../db/TasklocaleEN.json");
 
     private tasks: Record<string, IQuest>;
+    private locale: Record<string, Record<string, string>>;
 
-    private newLine = "\n"
+    private newLine = "\n";
 
     public preAkiLoad(container: DependencyContainer): void
     {
@@ -33,22 +34,31 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
         const database = container.resolve<DatabaseServer>("DatabaseServer").getTables();
 
         this.getAllTasks(database);
-        this.updateAllTasksText();
+        this.updateAllTasksText(database);
     }
 
-    public getAllTasks(database: IDatabaseTables): void
+    private getAllTasks(database: IDatabaseTables): void
     {
         this.tasks = database.templates.quests;
+        this.locale = database.locales.global;
     }
 
-    public updateAllTasksText()
+    private updateAllTasksText(database: IDatabaseTables)
     {
         Object.keys(this.tasks).forEach(key =>
         {
-            this.logger.logWithColor(key + this.newLine + this.tasks[key].QuestName, LogTextColor.GREEN);
+            if (this.dbEN[key].IsKeyRequired == true && this.tasks[key]._id == key)
+            {
+                for (const localeID in this.locale)
+                {
+                    const originalDesc = this.locale[localeID][`${key} description`];
+                    const keyDesc = `Required key(s): ${this.dbEN[key].RequiredKey}, Optional key(s): ${this.dbEN[key].OptionalKey} \n \n`
 
-            //this.tasks[key].description.concat(this.newLine + )
-
+                    database.locales.global[localeID][`${key} description`] = keyDesc + originalDesc;
+                }
+                
+                this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
+            }
         });
     }
 }
