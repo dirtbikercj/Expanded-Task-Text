@@ -44,18 +44,55 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     {
         Object.keys(this.tasks).forEach(key =>
         {
-            if (this.dbEN[key].IsKeyRequired == true && this.tasks[key]._id == key)
-            {
-                for (const localeID in this.locale)
-                {
-                    const originalDesc = this.locale[localeID][`${key} description`];
-                    const keyDesc = `Required key(s): ${this.dbEN[key].RequiredKey}, Optional key(s): ${this.dbEN[key].OptionalKey} \n \n`;
 
-                    database.locales.global[localeID][`${key} description`] = keyDesc + originalDesc;
+            for (const localeID in this.locale)
+            {
+                const originalDesc = this.locale[localeID][`${key} description`];
+                let keyDesc;
+                let collector;
+                let lightKeeper;
+
+                if (this.dbEN[key].IsKeyRequired == true && this.tasks[key]._id == key)
+                {
+                    if (this.dbEN[key].OptionalKey == "")
+                    {
+                        keyDesc = `Required key(s): ${this.dbEN[key].RequiredKey} \n`;
+                    }
+                    else if (this.dbEN[key].RequiredKey == "")
+                    {
+                        keyDesc = `Optional key(s): ${this.dbEN[key].OptionalKey} \n`;
+                    }
+                    else
+                    {
+                        keyDesc = `Required Key(s):  ${this.dbEN[key].RequiredKey} \n Optional Key(s): ${this.dbEN[key].OptionalKey} \n`
+                    }
                 }
-                
-                this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
+                    
+                if (this.dbEN[key].RequiredCollector || this.dbEN[key].RequiredLightkeeper)
+                {
+                    collector = `Required for collector: ${this.dbEN[key].RequiredCollector} \n`;
+                    lightKeeper = `Required for Light Keeper: ${this.dbEN[key].RequiredLightkeeper} \n \n`;
+                }
+
+                if (keyDesc == undefined)
+                {
+                    keyDesc = "";
+                }
+
+                if (collector == undefined)
+                {
+                    collector = "";
+                }
+
+                if (lightKeeper == undefined)
+                {
+                    lightKeeper = "";
+                }
+
+                database.locales.global[localeID][`${key} description`] = keyDesc + collector + lightKeeper + originalDesc;
             }
+        
+            this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
         });
     }
 }
