@@ -49,7 +49,7 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                 for (const localeID in this.locale)
                 {
                     const originalDesc = this.locale[localeID][`${key} description`];
-                    const keyDesc = `Required key(s): ${this.dbEN[key].RequiredKey}, Optional key(s): ${this.dbEN[key].OptionalKey} \n \n`
+                    const keyDesc = `Required key(s): ${this.dbEN[key].RequiredKey}, Optional key(s): ${this.dbEN[key].OptionalKey} \n \n`;
 
                     database.locales.global[localeID][`${key} description`] = keyDesc + originalDesc;
                 }
