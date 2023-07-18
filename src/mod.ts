@@ -71,7 +71,7 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                 if (this.dbEN[key].RequiredCollector || this.dbEN[key].RequiredLightkeeper)
                 {
                     collector = `Required for collector: ${this.dbEN[key].RequiredCollector} \n`;
-                    lightKeeper = `Required for Light Keeper: ${this.dbEN[key].RequiredLightkeeper} \n \n`;
+                    lightKeeper = `Required for Lightkeeper: ${this.dbEN[key].RequiredLightkeeper} \n \n`;
                 }
 
                 if (keyDesc == undefined)
