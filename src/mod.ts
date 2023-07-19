@@ -51,14 +51,17 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                 let keyDesc;
                 let collector;
                 let lightKeeper;
+                let durability;
+                let requiredParts;
+                let timeUntilNext;
 
-                if (this.dbEN[key].IsKeyRequired == true && this.tasks[key]._id == key)
+                if (this.dbEN[key]?.IsKeyRequired == true && this.tasks[key]?._id == key)
                 {
-                    if (this.dbEN[key].OptionalKey == "")
+                    if (this.dbEN[key]?.OptionalKey == "")
                     {
                         keyDesc = `Required key(s): ${this.dbEN[key].RequiredKey} \n`;
                     }
-                    else if (this.dbEN[key].RequiredKey == "")
+                    else if (this.dbEN[key]?.RequiredKey == "")
                     {
                         keyDesc = `Optional key(s): ${this.dbEN[key].OptionalKey} \n`;
                     }
@@ -68,10 +71,21 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                     }
                 }
                     
-                if (this.dbEN[key].RequiredCollector || this.dbEN[key].RequiredLightkeeper)
+                if (this.dbEN[key]?.RequiredCollector || this.dbEN[key]?.RequiredLightkeeper)
                 {
                     collector = `Required for collector: ${this.dbEN[key].RequiredCollector} \n`;
                     lightKeeper = `Required for Lightkeeper: ${this.dbEN[key].RequiredLightkeeper} \n \n`;
+                }
+
+                if (this.dbEN[key]?.RequiredParts && this.dbEN[key]?.RequiredDurability)
+                {
+                    durability = `Required Durability: ${this.dbEN[key].RequiredDurability} \n`;
+                    requiredParts = `Required Parts: \n ${this.dbEN[key].RequiredParts} \n`;
+                }
+
+                if (this.dbEN[key]?.TimeUntilNext)
+                {
+                    timeUntilNext = `Time until next task unlocks: ${this.dbEN[key].TimeUntilNext} \n`
                 }
 
                 if (keyDesc == undefined)
@@ -89,7 +103,22 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                     lightKeeper = "";
                 }
 
-                database.locales.global[localeID][`${key} description`] = keyDesc + collector + lightKeeper + originalDesc;
+                if (requiredParts == undefined)
+                {
+                    requiredParts = "";
+                }
+
+                if (durability == undefined)
+                {
+                    durability = "";
+                }
+
+                if (timeUntilNext == undefined)
+                {
+                    timeUntilNext = "";
+                }
+
+                database.locales.global[localeID][`${key} description`] = timeUntilNext + durability + requiredParts + keyDesc + collector + lightKeeper + originalDesc;
             }
         
             this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
