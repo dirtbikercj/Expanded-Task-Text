@@ -7,6 +7,7 @@ import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
 import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
 import { IQuest } from "@spt-aki/models/eft/common/tables/IQuest";
+import { IHandbookBase } from "@spt-aki/models/eft/common/tables/IHandbookBase";
 
 class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
 {
@@ -15,9 +16,11 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     private mod;
     private modConfig = require("../config/config.json");
     private dbEN: JSON = require("../db/TasklocaleEN.json");
+    private hbEN: JSON = require("../db/HandBookEN.json");
 
     private tasks: Record<string, IQuest>;
     private locale: Record<string, Record<string, string>>;
+    private handBook: IHandbookBase;
 
     public preAkiLoad(container: DependencyContainer): void
     {
@@ -32,12 +35,14 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
 
         this.getAllTasks(database);
         this.updateAllTasksText(database);
+        this.updateHandbook(database);
     }
 
     private getAllTasks(database: IDatabaseTables): void
     {
         this.tasks = database.templates.quests;
         this.locale = database.locales.global;
+        this.handBook = database.templates.handbook;
     }
 
     private updateAllTasksText(database: IDatabaseTables)
@@ -122,6 +127,14 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
             }
         
             this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
+        });
+    }
+
+    private updateHandbook(database: IDatabaseTables): void
+    {
+        Object.keys(this.hbEN.Categories).forEach(key => 
+        {
+            
         });
     }
 }
