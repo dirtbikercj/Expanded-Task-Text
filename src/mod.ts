@@ -122,19 +122,23 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                 {
                     timeUntilNext = "";
                 }
-
+                
                 database.locales.global[localeID][`${key} description`] = timeUntilNext + durability + requiredParts + keyDesc + collector + lightKeeper + originalDesc;
             }
-        
+            
+            if (this.dbEN[key]?.QuestName == undefined)
+            {
+                return;
+            }
             this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
         });
     }
 
     private updateHandbook(database: IDatabaseTables): void
     {
-        Object.keys(this.hbEN.Categories).forEach(key => 
+        Object.keys(this.hbEN).forEach(key => 
         {
-            
+            database.templates.handbook.Categories += this.hbEN[key].Categories;
         });
     }
 }

@@ -1,6 +1,0 @@
-G:\development\SPT-MODS\Expanded Task Text\ExpandedTaskText\obj\Debug\net46\ExpandedTaskText.csproj.AssemblyReference.cache
-G:\development\SPT-MODS\Expanded Task Text\ExpandedTaskText\obj\Debug\net46\PluginInfo.cs
-G:\development\SPT-MODS\Expanded Task Text\ExpandedTaskText\obj\Debug\net46\ExpandedTaskText.GeneratedMSBuildEditorConfig.editorconfig
-G:\development\SPT-MODS\Expanded Task Text\ExpandedTaskText\obj\Debug\net46\ExpandedTaskText.AssemblyInfoInputs.cache
-G:\development\SPT-MODS\Expanded Task Text\ExpandedTaskText\obj\Debug\net46\ExpandedTaskText.AssemblyInfo.cs
-G:\development\SPT-MODS\Expanded Task Text\ExpandedTaskText\obj\Debug\net46\ExpandedTaskText.csproj.CoreCompileInputs.cache
