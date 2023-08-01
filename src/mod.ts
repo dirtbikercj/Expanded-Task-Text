@@ -16,11 +16,9 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     private mod;
     private modConfig = require("../config/config.json");
     private dbEN: JSON = require("../db/TasklocaleEN.json");
-    private hbEN: JSON = require("../db/HandBookEN.json");
 
     private tasks: Record<string, IQuest>;
     private locale: Record<string, Record<string, string>>;
-    private handBook: IHandbookBase;
 
     public preAkiLoad(container: DependencyContainer): void
     {
@@ -35,14 +33,12 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
 
         this.getAllTasks(database);
         this.updateAllTasksText(database);
-        this.updateHandbook(database);
     }
 
     private getAllTasks(database: IDatabaseTables): void
     {
         this.tasks = database.templates.quests;
         this.locale = database.locales.global;
-        this.handBook = database.templates.handbook;
     }
 
     private updateAllTasksText(database: IDatabaseTables)
@@ -131,14 +127,6 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                 return;
             }
             this.logger.logWithColor(`${this.dbEN[key].QuestName} Information updated.`, LogTextColor.GREEN);
-        });
-    }
-
-    private updateHandbook(database: IDatabaseTables): void
-    {
-        Object.keys(this.hbEN).forEach(key => 
-        {
-            database.templates.handbook.Categories += this.hbEN[key].Categories;
         });
     }
 }
