@@ -8,6 +8,7 @@ import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
 import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
 import { IQuest } from "@spt-aki/models/eft/common/tables/IQuest";
 import { IHandbookBase } from "@spt-aki/models/eft/common/tables/IHandbookBase";
+import { ConfigServer } from "@spt-aki/servers/ConfigServer";
 
 class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
 {
@@ -30,10 +31,11 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     {
         // get database from server
         const database = container.resolve<DatabaseServer>("DatabaseServer").getTables();
-
         this.getAllTasks(database);
         this.updateAllTasksText(database);
     }
+
+
 
     private getAllTasks(database: IDatabaseTables): void
     {

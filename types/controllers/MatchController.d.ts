@@ -9,9 +9,9 @@ import { IGetProfileRequestData } from "../models/eft/match/IGetProfileRequestDa
 import { IGetRaidConfigurationRequestData } from "../models/eft/match/IGetRaidConfigurationRequestData";
 import { IJoinMatchRequestData } from "../models/eft/match/IJoinMatchRequestData";
 import { IJoinMatchResult } from "../models/eft/match/IJoinMatchResult";
-import { IBotConfig } from "../models/spt/config/IBotConfig";
 import { IInRaidConfig } from "../models/spt/config/IInRaidConfig";
 import { IMatchConfig } from "../models/spt/config/IMatchConfig";
+import { IPmcConfig } from "../models/spt/config/IPmcConfig";
 import { ILogger } from "../models/spt/utils/ILogger";
 import { ConfigServer } from "../servers/ConfigServer";
 import { SaveServer } from "../servers/SaveServer";
@@ -32,18 +32,23 @@ export declare class MatchController {
     protected applicationContext: ApplicationContext;
     protected matchConfig: IMatchConfig;
     protected inraidConfig: IInRaidConfig;
-    protected botConfig: IBotConfig;
+    protected pmcConfig: IPmcConfig;
     constructor(logger: ILogger, saveServer: SaveServer, profileHelper: ProfileHelper, matchLocationService: MatchLocationService, traderHelper: TraderHelper, botLootCacheService: BotLootCacheService, configServer: ConfigServer, profileSnapshotService: ProfileSnapshotService, botGenerationCacheService: BotGenerationCacheService, applicationContext: ApplicationContext);
     getEnabled(): boolean;
+    /** Handle raid/profile/list */
     getProfile(info: IGetProfileRequestData): IPmcData[];
+    /** Handle client/match/group/create */
     createGroup(sessionID: string, info: ICreateGroupRequestData): any;
+    /** Handle client/match/group/delete */
     deleteGroup(info: any): void;
+    /** Handle match/group/start_game */
     joinMatch(info: IJoinMatchRequestData, sessionId: string): IJoinMatchResult;
+    /** Handle client/match/group/status */
     getGroupStatus(info: IGetGroupStatusRequestData): any;
     /**
      * Handle /client/raid/configuration
-     * @param request
-     * @param sessionID
+     * @param request Raid config request
+     * @param sessionID Session id
      */
     startOfflineRaid(request: IGetRaidConfigurationRequestData, sessionID: string): void;
     /**
@@ -52,9 +57,10 @@ export declare class MatchController {
      * @returns bot difficulty
      */
     protected convertDifficultyDropdownIntoBotDifficulty(botDifficulty: string): string;
+    /** Handle client/match/offline/end */
     endOfflineRaid(info: IEndOfflineRaidRequestData, sessionId: string): void;
     /**
-     * Is extract by car
+     * Was extract by car
      * @param extractName name of extract
      * @returns true if car extract
      */
