@@ -961,8 +961,8 @@
 
     "5979f9ba86f7740f6c3fe9f2": {
         "QuestName": "Chemical Part 1",
-        "IsKeyRequired": false,
-        "RequiredKey": "",
+        "IsKeyRequired": true,
+        "RequiredKey": "Dorm room 220 key",
         "OptionalKey": "",
         "RequiredCollector": true,
         "RequiredLightkeeper": false
@@ -2878,6 +2878,42 @@
         "QuestName": "Tourist-Event",
         "IsKeyRequired": false,
         "RequiredKey": "",
+        "OptionalKey": "",
+        "RequiredCollector": false,
+        "RequiredLightkeeper": false
+    },
+
+    "64ee99639878a0569d6ec8c9": {
+        "QuestName": "Broadcast Part 5",
+        "IsKeyRequired": true,
+        "RequiredKey": "Mysterious room marked key",
+        "OptionalKey": "",
+        "RequiredCollector": false,
+        "RequiredLightkeeper": false
+    },
+
+    "64ee9df4496db64f9b7a4432": {
+        "QuestName": "The Door",
+        "IsKeyRequired": true,
+        "RequiredKey": "Rusted bloody key",
+        "OptionalKey": "",
+        "RequiredCollector": false,
+        "RequiredLightkeeper": false
+    },
+
+    "64f6aafd67e11a7c6206e0d0": {
+        "QuestName": "Beyond The RedMeat P2",
+        "IsKeyRequired": true,
+        "RequiredKey": "TerraGroup meeting room key",
+        "OptionalKey": "",
+        "RequiredCollector": false,
+        "RequiredLightkeeper": false
+    },
+
+    "64f731ab83cfca080a361e42": {
+        "QuestName": "Pets Wont Need It",
+        "IsKeyRequired": true,
+        "RequiredKey": "X-ray room key",
         "OptionalKey": "",
         "RequiredCollector": false,
         "RequiredLightkeeper": false
