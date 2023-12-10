@@ -18,7 +18,7 @@ const configText = fs.readFileSync("./build.json");
 const config = JSON.parse(configText);
 const currentDir = __dirname;
 
-const modName = `${author.replace(/[^a-z0-9]/gi, "")}-${packageName.replace(/[^a-z0-9]/gi, "")}`;
+const modName = `${packageName.replace(/[^a-z0-9]/gi, "")}`;
 
 const currentDate = new Date();
 const epoch = `${currentDate}`
