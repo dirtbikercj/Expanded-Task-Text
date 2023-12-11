@@ -32,8 +32,12 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     {
         this.Instance.postDBLoad(container);
 
+        this.Instance.logger.log("Expanded Task Text is loading please wait...", LogTextColor.GREEN);
+
         this.getAllTasks(this.Instance.database);
         this.updateAllTasksText(this.Instance.database);
+
+        this.Instance.logger.log("Expanded Task Text loading complete", LogTextColor.GREEN);
     }
 
     private getAllTasks(database: IDatabaseTables): void
@@ -42,23 +46,37 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
         this.locale = database.locales.global;
     }
 
-    private getNextQuestInChain(currentQuestId: string): string | undefined 
+    private getAllNextQuestsInChain(currentQuestId: string): string | undefined
     {
-        for (const key of Object.keys(this.tasks)) 
+        const nextQuests: string[] = [];
+    
+        Object.keys(this.tasks).forEach(key => 
         {
+            if (this.tasks[key].conditions.AvailableForStart === undefined)
+            {
+                return undefined;
+            }
+
             const conditionsAOS = this.tasks[key].conditions.AvailableForStart;
     
             for (const condition in conditionsAOS) 
             {
-                if (conditionsAOS[condition]?._parent === "Quest" && conditionsAOS[condition]?._props?.target === currentQuestId) 
+                if (conditionsAOS[condition]?._parent === "Quest" &&
+                    conditionsAOS[condition]?._props?.target === currentQuestId) 
                 {
-                    return this.locale["en"][`${key} name`];
+                    const nextQuestName = this.locale["en"][`${key} name`];
+                    nextQuests.push(nextQuestName);
+    
+                    // Recursively find the next quests for the current quest
+                    const recursiveResults = this.getAllNextQuestsInChain(nextQuestName);
+                    nextQuests.push(...recursiveResults);
                 }
             }
-        }
-        // Return undefined if no matching quest is found
-        return undefined;
+        });
+        const resultString = nextQuests.join(', ');
+        return resultString;
     }
+    
     
 
     private updateAllTasksText(database: IDatabaseTables)
@@ -103,9 +121,9 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                     lightKeeper = "This quest is required for Lightkeeper \n \n";
                 }
 
-                if (this.getNextQuestInChain(key) != "")
+                if (this.getAllNextQuestsInChain(key) !== undefined || this.getAllNextQuestsInChain(key) !== "")
                 {
-                    leadsTo = `Leads to: ${this.getNextQuestInChain(key)} \n \n`;
+                    leadsTo = `Leads to: ${this.getAllNextQuestsInChain(key)} \n \n`;
                 }
 
                 if (this.dbEN[key]?.RequiredParts && this.dbEN[key]?.RequiredDurability)
@@ -149,7 +167,7 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                     timeUntilNext = "";
                 }
                 
-                if (this.getNextQuestInChain(key) == undefined)
+                if (this.getAllNextQuestsInChain(key) === undefined)
                 {
                     leadsTo = "";
                 }
