@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import { DependencyContainer } from "tsyringe";
+import { DependencyContainer, inject } from "tsyringe";
 import { InstanceManager } from "./InstanceManager";
 
 import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
@@ -25,6 +25,9 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
     public preAkiLoad(container: DependencyContainer): void
     {
         this.Instance.preAkiLoad(container, this.modName);
+        
+        
+
         this.mod = require("../package.json");
     }
 
@@ -171,8 +174,11 @@ class DExpandedTaskText implements IPostDBLoadMod, IPreAkiLoadMod
                 {
                     leadsTo = "";
                 }
-
-                database.locales.global[localeID][`${key} description`] = collector + lightKeeper + leadsTo + timeUntilNext + keyDesc + durability + requiredParts + originalDesc;
+                
+                if (!this.Instance.getPath())
+                {
+                    database.locales.global[localeID][`${key} description`] = collector + lightKeeper + leadsTo + timeUntilNext + keyDesc + durability + requiredParts + originalDesc;
+                }     
             }
         });
     }
